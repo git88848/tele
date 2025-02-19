@@ -19,14 +19,14 @@ pip install telethon
 
 ### 3. 创建工作目录 📁
 1. 在电脑D盘创建文件夹 `telegram_report`
-2. 在里面创建 `sessions` 文件夹
+2. 在里面创建文件夹 `sessions`
 3. 把 `TelegramReportUserScript.py` 放进去
-4. 把协议号导入到 `sessions` 文件夹
+4. 把协议号导入到文件夹 `sessions`
 
 ## 🎮 使用教程
 
 ### 1. 运行程序 ▶️
-1. 双击运行 `start.bat` 文件
+1. 找到并运行 `start.bat`
 2. 等待程序启动
 
 ### 2. 按提示操作 ⌨️
@@ -39,15 +39,24 @@ pip install telethon
    - 输入0：每个可用账号举报一次
 
 3. 选择举报类型（输入对应数字）：
-   1. 👶 虐待儿童
-   2. ©️ 版权问题
-   3. ❌ 虚假消息
-   4. 💊 非法药物
-   5. ❓ 其他问题
-   6. 👤 非法人员
-   7. 🏢 非法组织
-   8. 📨 垃圾邮件
-   9. 💢 暴力行为
+
+   1、👶 虐待儿童
+   
+   2、©️ 版权问题
+   
+   3、❌ 虚假消息
+   
+   4、💊 非法药物
+   
+   5、❓ 其他问题
+   
+   6、👤 非法人员
+   
+   7、🏢 非法组织
+   
+   8、📨 垃圾邮件
+   
+   9、💢 暴力行为
 
 4. 输入举报内容
    - 可以直接输入文字描述
@@ -105,7 +114,10 @@ pip install telethon
 如果觉得这个程序对你有帮助，欢迎赞助支持！
 
 ### TRC20-USDT 钱包地址
-`TQ2gs6167orQSVWVNHWrKq9SZ8a5WRETZs`
+```
+TQ2gs6167orQSVWVNHWrKq9SZ8a5WRETZs
+```
+👆 点击上方复制按钮即可复制
 
 <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=TQ2gs6167orQSVWVNHWrKq9SZ8a5WRETZs" alt="TRC20-USDT 二维码" width="200"/>
 
