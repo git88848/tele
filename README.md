@@ -10,8 +10,9 @@
 - 点击 "Install Now"
 
 ### 2. 安装依赖 📦
-- Win+R 输入 `cmd` 回车
-- 输入下面代码回车：
+- 按下 Win+R
+- 输入 cmd 并回车
+- 在命令提示符中输入：
 ```bash
 pip install telethon
 ```
@@ -22,27 +23,11 @@ pip install telethon
 3. 把 `TelegramReportUserScript.py` 放进去
 4. 把协议号导入到 `sessions` 文件夹
 
-### 4. 修改API信息 🔑
-- 打开 `TelegramReportUserScript.py`
-- 找到第57行左右：
-```python
-client = TelegramClient(s_dir, 2040, "b18441a1ff607e10a989891a5462e627")
-```
-- 将2040和"b18441a1ff607e10a989891a5462e627"替换为你的api_id和api_hash
-- 获取API方法：
-  1. 访问：https://my.telegram.org/auth
-  2. 登录后点 "API development tools"
-  3. 随便填写表单获取api_id和api_hash （如果获取不到，可以联系飞机 @Rfanhui 购买）
-
 ## 🎮 使用教程
 
 ### 1. 运行程序 ▶️
-- Win+R 输入 `cmd` 回车
-- 输入下面代码回车：
-```bash
-cd /d D:\telegram_report
-python TelegramReportUserScript.py
-```
+1. 双击运行 `start.bat` 文件
+2. 等待程序启动
 
 ### 2. 按提示操作 ⌨️
 1. 输入要举报的用户名或ID
@@ -84,7 +69,6 @@ python TelegramReportUserScript.py
 3. 举报失败
    - 检查账号是否正常
    - 确认目标用户名是否正确
-   - 尝试更换API
 
 ## 📝 更新日志
 
@@ -107,5 +91,26 @@ python TelegramReportUserScript.py
    - 自动检测协议号有效性
    - 无效协议号自动清理
 
+## 📱 联系方式与社群
+
+### Telegram 社群
+- 📢 官方频道：[@QUYUkjpd](https://t.me/QUYUkjpd)
+- 👥 交流群：[@QUYUkjq](https://t.me/QUYUkjq)
+- 👨‍💻 作者：[@Lawofforce](https://t.me/Lawofforce)
+
+欢迎加入我们的社群，获取最新更新和技术支持！
+
+## 💝 赞助支持
+
+如果觉得这个程序对你有帮助，欢迎赞助支持！
+
+### TRC20-USDT 钱包地址
+`TQ2gs6167orQSVWVNHWrKq9SZ8a5WRETZs`
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=TQ2gs6167orQSVWVNHWrKq9SZ8a5WRETZs" alt="TRC20-USDT 二维码" width="200"/>
+
+您的支持是我们持续改进的动力！
+
 ## ⚠️ 免责声明
 本工具仅供学习交流使用，请勿用于非法用途。使用本工具所产生的一切后果由使用者自行承担。 
+
